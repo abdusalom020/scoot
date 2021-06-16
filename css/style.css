@@ -353,14 +353,14 @@ img {
   position: absolute;
   z-index: 1;
   top: 80px;
-  right: -500px;
-  width: 1100px;
+  right: -600px;
+  width: 1200px;
   height: 445px;
   background-image: url(../img/left-yellow.svg),
     url(../img/oval1.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% + -160px) 295px,
-    calc(50% + 334px);
+  background-position: calc(50% + -210px) 295px,
+    calc(50% + 289px);
   content: "";
 }
 
@@ -383,14 +383,14 @@ img {
   position: absolute;
   z-index: 1;
   top: 80px;
-  right: -500px;
+  right: -600px;
   width: 1100px;
   height: 445px;
   background-image: url(../img/left-yellow.svg),
     url(../img/oval1.svg);
   background-repeat: no-repeat;
-  background-position: calc(50% + 220px) 70px,
-    calc(50% + 334px);
+  background-position: calc(50% + 130px) 70px,
+    calc(50% + 239px);
   content: "";
 }
 
@@ -780,6 +780,86 @@ img {
 
 .faq__item--open .faq__btn{
   background-image: url(../img/top.svg);
+}
+
+.careers__button{
+  padding: 14px 49px;
+}
+
+.careers{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.carer{
+  padding-top: 0;
+  padding-bottom: 120px;
+}
+
+.apply__section {
+  background-color: #fff;
+  padding-bottom: 160px;
+}
+
+.apply__list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.apply__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding: 32px 64px 35px 40px;
+  background-color: var(--text-area);
+}
+
+.apply__item:last-child{
+  margin: 0;
+}
+
+.apply__heading {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1px;
+  color: var(--heading-color);
+  margin-bottom: 8px;
+}
+
+.apply__info {
+  margin: 0;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--heading-color);
+}
+
+.apply__link {
+  text-decoration: none;
+  margin-left: auto;
+  font-family: 'Space Mono', monospace;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+  border: 3px solid transparent;
+  background-color: var(--button-color);
+  padding: 14px 67px;
+  transition: background-color 0.4s ease,
+    color 0.4s ease,
+    border 0.4s ease;
+}
+
+.apply__link:hover{
+  background-color: #fff;
+  border: 3px solid var(--button-color);
+  color: var(--button-color);
 }
 
 
