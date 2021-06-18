@@ -857,7 +857,7 @@ img {
 }
 
 .apply__link:hover{
-  background-color: transparent;
+  background-color: var(--text-area);
   border: 3px solid var(--button-color);
   color: var(--button-color);
 }
